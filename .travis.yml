@@ -25,7 +25,7 @@ deploy:
   - provider: script
     skip_cleanup: true
     script: 
-    - curl -T print_ip-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb -upaulokoelio:$BINTRAY_API_KEY "https://api.bintray.com/content/paulokoelio/otus10hw4/otus10hw4/1.0.$TRAVIS_BUILD_NUMBER/print_ip-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=bionic;deb_component=main;deb_architecture=amd64;publish=1"
+    - curl -T print_ip-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb -upaulokoelio:$BINTRAY_API_KEY "https://api.bintray.com/content/paulokoelio/otus08hw3/allocator/1.0.$TRAVIS_BUILD_NUMBER/allocator-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=bionic;deb_component=main;deb_architecture=amd64;publish=1"
   - provider: pages
     skip_cleanup: true
     github_token: ${GITHUB_TOKEN}  # Set in the settings page of your repository, as a secure variable
