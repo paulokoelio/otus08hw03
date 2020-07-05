@@ -1,0 +1,13 @@
+#pragma once
+
+#cmakedefine PROJECT_VERSION "@PROJECT_VERSION@"
+
+namespace slvr
+{
+    namespace allocator
+    {
+        
+        const char *version();
+    
+    }   // namespace allocator
+} // namespace slvr
