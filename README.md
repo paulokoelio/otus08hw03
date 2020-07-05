@@ -14,7 +14,7 @@ cmake --build .
 #define DEBUG
 
 Подробнее документацию можно посмотреть по ссылке   <br> 
-https://paulokoelio.github.io/otus08hw3/  
+https://paulokoelio.github.io/otus08hw03/  
 
 
 ========= Лицензия =============
